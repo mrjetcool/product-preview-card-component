@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: Montserrat, sans-serif;
+    padding-top: 7%;
+  }
+  .component-main {
+    display:flex;
+    justify-content: center;
+  }
+  h3 {
+    color: #212529;
+    font-family: Fraunces, serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+    width: 80%;
+  }
+  
+  p {
+    color: hsl(228, 12%, 48%);
+    font-size: 0.875rem;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .main {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 40%;
+  }
+  .product-image {
+    padding-left: 0;
+  }
+  
+  .perfume {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: inherit;
+  }
+  
+  .product-details {
+    padding-top: 5px;
+  }
+  
+  .product-head {
+    letter-spacing: 5;
+  }
+  
+  .price-tags {
+    margin-top: 20px;
+  }
+  
+  .discount-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    display: inline;
+  }
+  
+  .slashed-price {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: line-through;
+  }
+  
+  .cart-button {
+    background-color: hsl(158, 36%, 37%);
+    font-size: 0.875rem;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 90%;
+  }
+  
+  .cart-button:hover {
+    background-color: hsl(212, 21%, 14%);
+  }
+  
